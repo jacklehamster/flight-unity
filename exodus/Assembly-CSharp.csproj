@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{A8E173B9-0E37-FBB8-0DE6-A153453A136C}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;RENDER_SOFTWARE_CURSOR;UNITY_WEBGL;ENABLE_TEXTUREID_MAP;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Detonator Explosion Framework\Sample Supporting Emitters\DetonatorSprayHelper.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\Detonator.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorBurstEmitter.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorCloudRing.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorComponent.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorFireball.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorForce.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorGlow.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorHeatwave.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorLight.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorShockwave.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorSmoke.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorSound.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorSparks.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\System\DetonatorSpray.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\TestScene\DetonatorTest.cs" />
+     <Compile Include="Assets\Detonator Explosion Framework\TestScene\TouchToMouse.cs" />
+     <Compile Include="Assets\GameJoltAPI\API\Core\GJAPI.cs" />
+     <Compile Include="Assets\GameJoltAPI\API\Methods Groups\GJDataMehods.cs" />
+     <Compile Include="Assets\GameJoltAPI\API\Methods Groups\GJScoresMethods.cs" />
+     <Compile Include="Assets\GameJoltAPI\API\Methods Groups\GJSessionsMethods.cs" />
+     <Compile Include="Assets\GameJoltAPI\API\Methods Groups\GJTrophiesMethods.cs" />
+     <Compile Include="Assets\GameJoltAPI\API\Methods Groups\GJUsersMethods.cs" />
+     <Compile Include="Assets\GameJoltAPI\API\Objects\GJObject.cs" />
+     <Compile Include="Assets\GameJoltAPI\API\Objects\GJScore.cs" />
+     <Compile Include="Assets\GameJoltAPI\API\Objects\GJTable.cs" />
+     <Compile Include="Assets\GameJoltAPI\API\Objects\GJTrophy.cs" />
+     <Compile Include="Assets\GameJoltAPI\API\Objects\GJUser.cs" />
+     <Compile Include="Assets\GameJoltAPI\Helper\Core\GJAPIHelper.cs" />
+     <Compile Include="Assets\GameJoltAPI\Helper\Core\GJHNotificationsManager.cs" />
+     <Compile Include="Assets\GameJoltAPI\Helper\Core\GJHWindowsManager.cs" />
+     <Compile Include="Assets\GameJoltAPI\Helper\Methods Groups\GJHScoresMethods.cs" />
+     <Compile Include="Assets\GameJoltAPI\Helper\Methods Groups\GJHTrophiesMethods.cs" />
+     <Compile Include="Assets\GameJoltAPI\Helper\Methods Groups\GJHUsersMethods.cs" />
+     <Compile Include="Assets\GameJoltAPI\Helper\Objects\GJHNotification.cs" />
+     <Compile Include="Assets\GameJoltAPI\Helper\Objects\GJHWindow.cs" />
+     <Compile Include="Assets\GameJoltAPI\Helper\Windows\GJHLoginWindow.cs" />
+     <Compile Include="Assets\GameJoltAPI\Helper\Windows\GJHScoresWindow.cs" />
+     <Compile Include="Assets\GameJoltAPI\Helper\Windows\GJHTrophiesWindow.cs" />
+     <Compile Include="Assets\GameJoltAPI\Libraries\MD5.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Characters\First Person Character\Scripts\FirstPersonCharacter.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Characters\First Person Character\Scripts\FirstPersonHeadBob.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\AbstractButton.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\AxisTouchButton.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\Button.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\ButtonDownTextureChange.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\ButtonFactory.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\CrossPlatformInput.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\Joystick.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\JoystickAbstract.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\MobileControlRig.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\TiltInput.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\TouchJoystick.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\TouchPad.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\TouchPadPositional.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\TouchPadRelativePositional.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\TouchPadSwipe.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Scripts\VirtualInput.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Sample Assets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\SandstoneDesertRocksFree\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\SimpleCloudSystem by RM\SceneComponents\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\_Scenes\AlienScript.cs" />
+     <Compile Include="Assets\_Scenes\CameraRotator.cs" />
+     <Compile Include="Assets\_Scenes\CielScript.cs" />
+     <Compile Include="Assets\_Scenes\Control.cs" />
+     <Compile Include="Assets\_Scenes\DroidScript.cs" />
+     <Compile Include="Assets\_Scenes\GameMusic.cs" />
+     <Compile Include="Assets\_Scenes\Lazer.cs" />
+     <Compile Include="Assets\_Scenes\TimeEllapsed.cs" />
+     <Compile Include="Assets\_Scenes\Title.cs" />
+     <None Include="Assets\GameJoltAPI\README.txt" />
+     <None Include="Assets\SandstoneDesertRocksFree\_info.txt" />
+     <None Include="Assets\SimpleCloudSystem by RM\Read Me.txt" />
+     <None Include="Assets\SandstoneDesertRocksFree\Sample Assets\Cross Platform Input\Cross Platform Input Guidelines.txt" />
+     <None Include="Assets\SimpleCloudSystem by RM\SCS Instructions.txt" />
+     <None Include="Assets\Horse\SoftAlpha.shader" />
+     <None Include="Assets\Detonator Explosion Framework\Resources\Detonator\Textures\HeatDistort.shader" />
+     <None Include="Assets\SandstoneDesertRocksFree\Sample Assets\Characters\First Person Character\First Person Character Guidelines.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
