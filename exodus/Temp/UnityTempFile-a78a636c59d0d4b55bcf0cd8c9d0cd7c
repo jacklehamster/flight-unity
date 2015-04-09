@@ -1,0 +1,123 @@
+-debug
+-target:library
+-nowarn:0169
+-out:'Temp/Assembly-CSharp.dll'
+-r:'/Applications/Unity/Unity.app/Contents/PlaybackEngines/WebPlayer/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'
+-define:UNITY_5_0_0
+-define:UNITY_5_0
+-define:UNITY_5
+-define:ENABLE_LICENSE_RENAME
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_4_6_FEATURES
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_NEW_HIERARCHY
+-define:ENABLE_PHYSICS
+-define:ENABLE_PHYSICS_PHYSX3
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_AUDIOMIXER_SUSPEND
+-define:ENABLE_NONPRO
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:UNITY_WEBPLAYER
+-define:ENABLE_SUBSTANCE
+-define:WEBPLUG
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_MONO
+-define:CROSS_PLATFORM_INPUT
+'Assets/Detonator Explosion Framework/Sample Supporting Emitters/DetonatorSprayHelper.cs'
+'Assets/Detonator Explosion Framework/System/Detonator.cs'
+'Assets/Detonator Explosion Framework/System/DetonatorBurstEmitter.cs'
+'Assets/Detonator Explosion Framework/System/DetonatorCloudRing.cs'
+'Assets/Detonator Explosion Framework/System/DetonatorComponent.cs'
+'Assets/Detonator Explosion Framework/System/DetonatorFireball.cs'
+'Assets/Detonator Explosion Framework/System/DetonatorForce.cs'
+'Assets/Detonator Explosion Framework/System/DetonatorGlow.cs'
+'Assets/Detonator Explosion Framework/System/DetonatorHeatwave.cs'
+'Assets/Detonator Explosion Framework/System/DetonatorLight.cs'
+'Assets/Detonator Explosion Framework/System/DetonatorShockwave.cs'
+'Assets/Detonator Explosion Framework/System/DetonatorSmoke.cs'
+'Assets/Detonator Explosion Framework/System/DetonatorSound.cs'
+'Assets/Detonator Explosion Framework/System/DetonatorSparks.cs'
+'Assets/Detonator Explosion Framework/System/DetonatorSpray.cs'
+'Assets/Detonator Explosion Framework/TestScene/DetonatorTest.cs'
+'Assets/Detonator Explosion Framework/TestScene/TouchToMouse.cs'
+'Assets/GameJoltAPI/API/Core/GJAPI.cs'
+'Assets/GameJoltAPI/API/Methods Groups/GJDataMehods.cs'
+'Assets/GameJoltAPI/API/Methods Groups/GJScoresMethods.cs'
+'Assets/GameJoltAPI/API/Methods Groups/GJSessionsMethods.cs'
+'Assets/GameJoltAPI/API/Methods Groups/GJTrophiesMethods.cs'
+'Assets/GameJoltAPI/API/Methods Groups/GJUsersMethods.cs'
+'Assets/GameJoltAPI/API/Objects/GJObject.cs'
+'Assets/GameJoltAPI/API/Objects/GJScore.cs'
+'Assets/GameJoltAPI/API/Objects/GJTable.cs'
+'Assets/GameJoltAPI/API/Objects/GJTrophy.cs'
+'Assets/GameJoltAPI/API/Objects/GJUser.cs'
+'Assets/GameJoltAPI/Helper/Core/GJAPIHelper.cs'
+'Assets/GameJoltAPI/Helper/Core/GJHNotificationsManager.cs'
+'Assets/GameJoltAPI/Helper/Core/GJHWindowsManager.cs'
+'Assets/GameJoltAPI/Helper/Methods Groups/GJHScoresMethods.cs'
+'Assets/GameJoltAPI/Helper/Methods Groups/GJHTrophiesMethods.cs'
+'Assets/GameJoltAPI/Helper/Methods Groups/GJHUsersMethods.cs'
+'Assets/GameJoltAPI/Helper/Objects/GJHNotification.cs'
+'Assets/GameJoltAPI/Helper/Objects/GJHWindow.cs'
+'Assets/GameJoltAPI/Helper/Windows/GJHLoginWindow.cs'
+'Assets/GameJoltAPI/Helper/Windows/GJHScoresWindow.cs'
+'Assets/GameJoltAPI/Helper/Windows/GJHTrophiesWindow.cs'
+'Assets/GameJoltAPI/Libraries/MD5.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Characters/First Person Character/Scripts/FirstPersonCharacter.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Characters/First Person Character/Scripts/FirstPersonHeadBob.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/AbstractButton.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/AxisTouchButton.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/Button.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/ButtonDownTextureChange.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/ButtonFactory.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/CrossPlatformInput.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/Joystick.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/JoystickAbstract.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/MobileControlRig.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/PlatformSpecific/MobileInput.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/PlatformSpecific/StandaloneInput.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/TiltInput.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/TouchJoystick.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/TouchPad.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/TouchPadPositional.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/TouchPadRelativePositional.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/TouchPadSwipe.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Cross Platform Input/Scripts/VirtualInput.cs'
+'Assets/SandstoneDesertRocksFree/Sample Assets/Utility/SimpleMouseRotator.cs'
+'Assets/SandstoneDesertRocksFree/Standard Assets/Scripts/General Scripts/ActivateTrigger.cs'
+'Assets/SimpleCloudSystem by RM/SceneComponents/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs'
+'Assets/_Scenes/AlienScript.cs'
+'Assets/_Scenes/CameraRotator.cs'
+'Assets/_Scenes/CielScript.cs'
+'Assets/_Scenes/Control.cs'
+'Assets/_Scenes/DroidScript.cs'
+'Assets/_Scenes/GameMusic.cs'
+'Assets/_Scenes/Lazer.cs'
+'Assets/_Scenes/TimeEllapsed.cs'
+'Assets/_Scenes/Title.cs'
