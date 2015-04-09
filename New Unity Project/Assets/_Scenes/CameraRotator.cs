@@ -31,7 +31,7 @@ public class CameraRotator : MonoBehaviour {
 //		transform.Rotate (new Vector3(0,mX,0));
 //		transform.Rotate (new Vector3(0,0,mX));
 		if(!controller.gameOver)
-			transform.rotation =Quaternion.Euler(new Vector3 (-mY*10, mX*30, mX*30));
+			transform.rotation =Quaternion.Euler(new Vector3 (-mY*20-10, mX*30, mX*30));
 		//		Debug.Log (transform.rotation.eulerAngles);
 //		Debug.Log (Camera.main.transform.rotation.y);
 	}

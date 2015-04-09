@@ -25,7 +25,7 @@ public class Control : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		instance = this;
-		for (int z = -100; z <= 100; z+=10) {
+		for (int z = -150; z <= 150; z+=10) {
 			for (int x = -100; x <= 100; x+=10) {
 //				GameObject plane = GameObject.CreatePrimitive(PrimitiveType.Plane);
 //				plane.AddComponent<Rigidbody>();
@@ -41,7 +41,7 @@ public class Control : MonoBehaviour {
 				rock[i%rock.Length],
 				new Vector3(
 					pos.x,
-					i%rock.Length<=4? Random.Range(0,10):0,
+					i%rock.Length<=4? Random.Range(0,15):0,
 					pos.y+500 + i*i/10),
 				Quaternion.identity);
 			obj.transform.Rotate(0,Random.Range(0,360),0);
@@ -65,7 +65,7 @@ public class Control : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		float t = Time.timeSinceLevelLoad;
-		baseSpeed = 25+t/10;
+		baseSpeed = 30+t/5;
 		if (gameOver) {
 			Time.timeScale = 0;
 			group.alpha = 1;

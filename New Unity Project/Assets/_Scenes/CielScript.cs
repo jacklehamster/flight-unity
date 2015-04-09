@@ -44,8 +44,8 @@ public class CielScript : MonoBehaviour {
 //		Quaternion rotation = Camera.main.transform.rotation;
 //		transform.Translate (new Vector3 (rotation.eulerAngles.x, 0, rotation.eulerAngles.z));
 
-		if (transform.position.z < -100)		//	TUTORIAL 3
-			transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z+200);
+		if (transform.position.z < -150)		//	TUTORIAL 3
+			transform.position = new Vector3(transform.position.x,transform.position.y,transform.position.z+300);
 		if (transform.position.x < -100)		//	TUTORIAL 3
 			transform.position = new Vector3 (transform.position.x + 200, transform.position.y, transform.position.z);
 		else if (transform.position.x > 100) {
